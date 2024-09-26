@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+  
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <title style="text-align: center;">Jacques Bam CV</title>
+        <meta charset="utf-8"/>
+    </head>
+
+    <body>
+        <div id="paragraph-container">
+            <h1>Jacques Bam CV</h1>
+        </div>
+        <img src="IMG_3020_2.jpg" alt="Placeholder" id="me-pic">
+        <div id="paragraph-container">
+            <p id="about">I'm an aspiring software engineer that is passionate about the industry. I'm always eager and willing to learn and would never turn down an opportunity to gain experience</p>
+        </div>
+        <div id="paragraph-container">
+            <h3>Contact Details:</h3>
+            <ul>
+                <li>Email: jacquesbam4@gmail.com</li>
+                <li>Cell: 071 477 6522</li>
+            </ul>
+
+            <h3>Skills:</h3>
+            <ul>
+                <li>Python</li>
+                <li>C#</li>
+                <li>Database management</li>
+                <li>Excel</li>
+            </ul>
+
+            <h3>Education:</h3>
+            <ul>
+                <li>High school diploma</li>
+                <li>Hyperion Dev coding bootcamp</li>
+            </ul>
+            <h3>Employment History</h3>
+            <p>Worked for 1 year as a deckhand on a ferry</p>
+        </div>
+
+        
+        <div id="search-bar">
+            <label for="site-search">Search the site:</label>
+            <input type="search" id="site-search" name="q" />
+            <button>Search</button>
+        </div>
+
+        <form action="" method="get">
+            <br>
+
+            <div id="feedback-body">
+                <label style="text-align: left;">Name: </label>
+                <input type="text" style="margin-bottom: 10px;"><br>
+                <label>Email: </label>
+                <input type="text" style="margin-bottom: 10px;">
+                <br>
+                <label for="message">Feedback:</label>
+                <br>
+                <textarea id="message" name="feedback" rows="10" cols="30">Type your message here</textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+    </body>
+    <!--GET /search?site-search=contact  HTTP/1.1
+        Host: file:///C:/Users/Jacques%20Bam/Desktop/JacquesGithub/JB24060015158/2%20%E2%80%93%20Introduction%20to%20Software%20Engineering/L2T15%20%E2%80%93%20HTML%20Overview/05-002%20HTML%20Overview/index.html
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)-->
+
+    <!--POST /index HTTP/1.1
+        Host: file:///C:/Users/Jacques%20Bam/Desktop/JacquesGithub/JB24060015158/2%20%E2%80%93%20Introduction%20to%20Software%20Engineering/L2T15%20%E2%80%93%20HTML%20Overview/05-002%20HTML%20Overview/index.html
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+        Content-Type: application/x-www-form-urlencoded
+        name=Jacques_Bam&email=jacquesbam4@gmail.com&content=This_website_sucks
+        -->
+</html>
